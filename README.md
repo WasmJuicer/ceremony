@@ -34,3 +34,4 @@ $ snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau ".
 | Contribution File | Contributor | Contribution Hash |
 |------------------ |-------------|--------------------------------------|
 | [0000_setup.zkey](./participations/0000_setup.zkey)  | Anonymous | `0e4908e1 992c1b4b 34e84512 786f229e`<br /> `28d94625 c87d8739 1ccb1895 6310a0a9` <br /> `7f53236e 3f2a076b 43662f8d b7c85ed0` <br /> `858d18c0 6dfdb243 36aad7fb 584ece78` |
+| [0001_albttx.zkey](./participations/0000_setup.zkey)  | [@albttx](https://twitter.com/albttx) | `7e29e141 602f3279 3e5265e0 5c4ca815`<br /> `34a6c162 f03af37a 4da84674 0fe7673b` <br /> `959875b8 1b0ecad0 a33592fd f5b5ef52` <br /> `a96036dd 7c1889e9 f451ac6f 6e130a1a`|
