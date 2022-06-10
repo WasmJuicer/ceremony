@@ -25,6 +25,7 @@ $ snarkjs zkey contribute ./participations/00xx_anoynmous.zkey ./participations/
 - Verify your contribution
 
 ```bash
+$ wget https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_16.ptau 
 $ snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau "./participations/4202_my_name.zkey"
 ```
 
