@@ -5,10 +5,17 @@
 - Install [snarkjs](https://github.com/iden3/snarkjs)
 
 ```bash
-npm install -g snarkjs
+sudo npm install -g snarkjs
 # or
-yarn global install snarkjs
+sudo yarn global add snarkjs
 ````
+
+- Clone repository
+```bash
+cd $HOME
+git clone https://github.com/WasmJuicer/ceremony.git
+cd ceremony
+```
 
 - Do your contribution
 
@@ -32,7 +39,7 @@ $ snarkjs zkey contribute ./participations/4201_anonymous.zkey ./participations/
 
 ```bash
 $ wget https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_16.ptau
-$ snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau "./participations/4202_my_name.zkey"
+$ snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau "./participations/$CONTRIBUTION_ID.zkey"
 ```
 
 - Write your contribution
@@ -44,3 +51,8 @@ $ snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau ".
 | [0002_teddav.zkey](./participations/0002_teddav.zkey)  | [@0xteddav](https://twitter.com/0xteddav) | `7bd3b81e a11f7c3d ca53c866 7977d274`<br /> `403ef969 63de8d42 e0894fbd 53b2ff50` <br /> `6143dd40 371b10cc 463bbadf e15cb99d` <br /> `bb4fd70d 64abb7ef b0fe75aa 39d272df`|
 | [0003_astaluego.zkey](./participations/0003_astaluego.zkey)  | [@astaluego](https://github.com/astaluego) | `1fe365de e5188405 0cb2ba4c 8a3d97bd`<br /> `93bb8418 caa15b4c 0f7be942 b2b0c2a5`<br />`cdc5d49c 7045c8b0 7656fc56 63e48921`<br />`65946004 c1ad9a59 427913d9 c78b944b` |
 | [0004_whiskey.zkey](./participations/0004_whiskey.zkey) | [@whiskeydev_](https://twitter.com/whiskeydev_) | `56fa7552 08c8930c ab57d7dd f375d6ac`<br/>`3bd0902a a291784f 9a29458c 40c7156f`<br/>`42b4ee12 e728ca03 ab7de3a9 569b411e`<br/>`f68f075f ca3602b6 da0fe0e7 1d4cb24b` |
+| [0005_polkachu.zkey](./participations/0005_polkachu.zkey)   | [@polka_chu](https://twitter.com/polka_chu)      | `f4bd4491 c4ef1051 28dae50c 4952e845`<br/>`18bbbcd3 aef6ed2a e4d84ec0 0ca64614`<br/>`47d0828b f851c191 b8534415 8566e8a1`<br/>`12fee31f 30326d38 2190ca69 65cb3605`         |
+| [0006_dimi.zkey](./participations/0006_dimi.zkey)   | [@dimiandre](https://twitter.com/dimiandre)      | `5b3cb795 d54411b7 dd05c166 d786d6c6`<br/>`e72e2dbf d41e9498 fa6e5bbe c2ae881e`<br/>`a8de2439 f83bd3d9 5c3a257e b246e84d`<br/>`c3158266 9a6d60a7 3be8e30f 1b2eb84c`         |
+| [0007_nodesguru.zkey](./participations/0007_nodesguru.zkey) | [@NodesGuru](https://twitter.com/NodesGuru) | `cb26d431 af0e8d35 571a04c7 b7586aeb`<br/>`e0c60715 e5403f03 872cadec c09ecc2b`<br/>`96048dcb 2f10c6c7 11281f69 562f6e97`<br/>`dbf56110 4d96d06b 3a5b41aa 42e402c3` |
+| [0008_NodeStake.zkey](./participations/0008_NodeStake.zkey) | [@Nodestake_top](https://twitter.com/Nodestake_top) | `71e92dab 5a4aa956 e0fdccdc 1e77738c`<br/>`0c5be377 88d3b590 cae58956 377a10eb`<br/>`ed5418d8 eb0492a1 2532d09f 2c66ea78`<br/>`d9e633b6 c566a99c 73c357c6 8bac1746` |
+
