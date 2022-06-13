@@ -24,6 +24,9 @@ cd ceremony
 $ ls -1 ./participations | tail -n 1
 4201_anonymous.zkey
 
+# set RECENT_ZKEY var to recent contribution file
+$ RECENT_ZKEY=$(ls -1 ./participations | tail -n 1)
+
 # add your contribution
 # just add 1 to the previous contribution
 # Feel free to put your name / twitter handler / keybase
@@ -32,7 +35,7 @@ $ ls -1 ./participations | tail -n 1
 $ CONTRIBUTION_ID=4202_myname
 
 # then run the following command
-$ snarkjs zkey contribute ./participations/4201_anonymous.zkey ./participations/$CONTRIBUTION_ID.zkey --name="My Name" -v
+$ snarkjs zkey contribute ./participations/$RECENT_ZKEY ./participations/$CONTRIBUTION_ID.zkey --name="My Name" -v
 ```
 
 - Verify your contribution
