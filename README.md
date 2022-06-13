@@ -20,22 +20,20 @@ cd ceremony
 - Do your contribution
 
 ```bash
-# first get the latest contribution number
-$ ls -1 ./participations | tail -n 1
-4201_anonymous.zkey
-
-# set RECENT_ZKEY var to recent contribution file
+# first get and set the latest contribution number to the RECENT_ZKEY var
 $ RECENT_ZKEY=$(ls -1 ./participations | tail -n 1)
+$ echo $RECENT_ZKEY
+4201_anonymous.zkey
 
 # add your contribution
 # just add 1 to the previous contribution
 # Feel free to put your name / twitter handler / keybase
-
-# First set the name
+# Set the name of zkey file. Then set your contributor name
 $ CONTRIBUTION_ID=4202_myname
+$ CONTRIBUTOR_NAME="My Name"
 
 # then run the following command
-$ snarkjs zkey contribute ./participations/$RECENT_ZKEY ./participations/$CONTRIBUTION_ID.zkey --name="My Name" -v
+$ snarkjs zkey contribute ./participations/$RECENT_ZKEY ./participations/$CONTRIBUTION_ID.zkey --name="$CONTRIBUTOR_NAME" -v
 ```
 
 - Verify your contribution
