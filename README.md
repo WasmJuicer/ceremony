@@ -11,6 +11,7 @@ sudo yarn global add snarkjs
 ````
 
 - Clone repository
+
 ```bash
 cd $HOME
 git clone https://github.com/WasmJuicer/ceremony.git
@@ -39,8 +40,8 @@ $ snarkjs zkey contribute ./participations/$RECENT_ZKEY ./participations/$CONTRI
 - Verify your contribution
 
 ```bash
-$ wget https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_16.ptau
-$ snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau "./participations/$CONTRIBUTION_ID.zkey"
+wget https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_16.ptau
+snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau "./participations/$CONTRIBUTION_ID.zkey"
 ```
 
 - Write your contribution
@@ -65,3 +66,4 @@ $ snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau ".
 | [0015_elsehow.zkey](./participations/0015_elsehow.zkey) | [@elsehow](https://twitter.com/_elsehow) | `f5bb0bbe 55af18db e921e305 9bdf4b6b` <br/> `3f78c243 5dc60aa1 187150ea 294d438e` <br/> `a4da64b1 d6fc34ea 8f766424 a8fd70c1` <br/> `3ecfc3fd 49970baa 06fd3847 275e2b46`
 | [0016_netadev.zkey](./participations/0016_netadev.zkey) | [@netadev](https://github.com/netadev) | `65bf1d29 41f7d05b 6ed21e6c 329bd089` <br/> `4a3f4587 ce9d347f 8ea12a38 1de0a2f3` <br/> `d35bea95 4cadd611 c017fe83 154b8961` <br/> `bb921be1 93408a29 0ce28fa1 8e942ef4`
 | [0017_joeabbey.zkey](./participations/0017_joeabbey.zkey) | [@joeabbey](https://github.com/joeabbey) | `a9647982 a57bfea3 c58f84b1 1491dd4b` <br/> `b5155f93 13cadd0f 280f1dd1 c7351b77` <br/> `95d13025 e0233317 a2fa5165 7da79154` <br/> `1f79e712 ac5d5a2d 64d64dca c5e8dabf`
+| [0018_sascha1337.zkey](./participations/0018_sascha1337.zkey) | [@sascha1337](https://github.com/sascha1337) | `8e063b41 8ff41599 d22692ca 787d0d80` <br/> `2285c0b1 80fa8971 be981e90 cb24700a` <br/> `2eec476e c9abc8a9 de8eea5e 94e6008f` <br/> `301420e5 8f6bba8f 34ee1f78 e1d55ec6`
