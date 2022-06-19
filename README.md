@@ -1,5 +1,9 @@
 # WasmJuicer Zero Knowledge Phase-2 Ceremony
 
+## DISCLAIMER
+
+If there is an open PR, please fork off of that branch to preserve the circuit/chain.  Otherwise, any later PRs will be rejected and you will need to redo your entry if you wish to participate.
+
 ## How to participate
 
 - Install [snarkjs](https://github.com/iden3/snarkjs)
