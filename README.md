@@ -17,38 +17,44 @@ sudo yarn global add snarkjs
 - Clone repository
 
 ```bash
+
 cd $HOME
 git clone https://github.com/WasmJuicer/ceremony.git
 cd ceremony
+
 ```
 
 - Do your contribution
 
 ```bash
+
 # first get and set the latest contribution number to the RECENT_ZKEY var
-$ RECENT_ZKEY=$(ls -1 ./participations | tail -n 1)
-$ echo $RECENT_ZKEY
-4201_anonymous.zkey
+RECENT_ZKEY=$(ls -1 ./participations | tail -n 1)
+echo $RECENT_ZKEY
+# 4201_anonymous.zkey
 
 # add your contribution
 # just add 1 to the previous contribution
 # Feel free to put your name / twitter handler / keybase
 # Set the name of zkey file. Then set your contributor name
-$ CONTRIBUTION_ID=4202_myname
-$ CONTRIBUTION_NAME="My Name"
+CONTRIBUTION_ID=4202_myname
+CONTRIBUTION_NAME="My Name"
 
 # then run the following command
-$ snarkjs zkey contribute ./participations/$RECENT_ZKEY ./participations/$CONTRIBUTION_ID.zkey --name="$CONTRIBUTION_NAME" -v
+snarkjs zkey contribute ./participations/$RECENT_ZKEY ./participations/$CONTRIBUTION_ID.zkey --name="$CONTRIBUTION_NAME" -v
+
 ```
 
 - Verify your contribution
 
 ```bash
+
 wget https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_16.ptau
 snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau "./participations/$CONTRIBUTION_ID.zkey"
+
 ```
 
-- Write your contribution
+## Write your contribution
 
 | Contribution File | Contributor | Contribution Hash |
 |------------------ |-------------|--------------------------------------|
