@@ -15,6 +15,7 @@ sudo yarn global add snarkjs
 ````
 
 - Clone repository
+
 ```bash
 cd $HOME
 git clone https://github.com/WasmJuicer/ceremony.git
@@ -43,8 +44,8 @@ $ snarkjs zkey contribute ./participations/$RECENT_ZKEY ./participations/$CONTRI
 - Verify your contribution
 
 ```bash
-$ wget https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_16.ptau
-$ snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau "./participations/$CONTRIBUTION_ID.zkey"
+wget https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_16.ptau
+snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau "./participations/$CONTRIBUTION_ID.zkey"
 ```
 
 - Write your contribution
@@ -72,3 +73,4 @@ $ snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau ".
 | [0018_nullmames.zkey](./participations/0018_nullmames.zkey) | [@nullmames](https://github.com/nullmames) | `3716bb92 601c64fb 4b1ed247 d492a244` <br/> `fb004999 d9767432 f1d9dc5f 309dcf9d` <br/> `19947958 9c6d278d c9358984 fa68338d` <br/> `d993be47 1a06b4be 7b4789d1 f2f7d851`
 | [0019_callum.zkey](./participations/0019_callum.zkey) | [@callum](https://github.com/callum-a) | `ada4288c a006245c 7d866b27 579c3b50` <br/> `2933f1af e72d30eb 464e0d69 e45d3220` <br/> `42de7829 4667a003 415ddbd6 6128b09e` <br/> `7afee047 0e3a2a96 b744b6f1 b99b712a`
 | [0020_caneryy.zkey](./participations/0020_caneryy.zkey) | [@caneryy](https://github.com/caneryy) | `6a977644 92633e92 a1590d63 d9603451` <br/> `7f014b83 e931dbeb 402e598d 19526a7c` <br/> `38d6793c 157e99e8 8c18d338 ffcb9645` <br/> `222b57fc 98facb2a ba5ba385 5f285869`
+| [0021_aquaonjuno1337.zkey](./participations/0021_aquaonjuno1337.zkey) | [@sascha1337](https://github.com/sascha1337) | `6a977644 92633e92 a1590d63 d9603451` <br/> `7f014b83 e931dbeb 402e598d 19526a7c` <br/> `38d6793c 157e99e8 8c18d338 ffcb9645` <br/> `222b57fc 98facb2a ba5ba385 5f285869`
