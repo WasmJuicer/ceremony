@@ -54,6 +54,12 @@ snarkjs zkey verify ./build/withdraw.r1cs ./powersOfTau28_hez_final_16.ptau "./p
 
 ```
 
+## Now what?
+
+Create a secret gist using the github account you used to create the PR with your Juno address in it and send the link over to [@JunoJuicer](https://twitter.com/JunoJuicer) on Twitter or DM whiskey#5193 on Discord with the link!
+
+More info via this [Twitter post](https://twitter.com/JunoJuicer/status/1544733705297707016?s=20&t=Ty0CUVDZExKIKqD6lbDDKA)
+
 ## Write your contribution
 
 | Contribution File | Contributor | Contribution Hash |
