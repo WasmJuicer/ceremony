@@ -29,7 +29,7 @@ cd ceremony
 ```bash
 
 # first get and set the latest contribution number to the RECENT_ZKEY var
-RECENT_ZKEY=$(ls -1 ./participations | tail -n 1)
+RECENT_ZKEY=$(ls -1 ./participations/*.zkey | tail -n 1)
 echo $RECENT_ZKEY
 # 4201_anonymous.zkey
 
