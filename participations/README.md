@@ -49,4 +49,4 @@
 | [0044_juice_by_wasm.zkey](./participations/0044_juice_by_wasm.zkey) | `` | `dc24800b b30162d2 94ad5c28 a36e6d8a` <br/> `a68df4e6 08233957 5b6225bc 13f86bb9` <br/> `8a93832d 0339d2b0 52b7074f a1d1b534` <br/> `be6c2e36 c9dbaff1 b0f8ed3f 226ab3f2` |
 | [0045_JunoCommander.zkey](./participations/0045_JunoCommander.zkey) | `` | `92235cc0 aee77177 b0cdd512 3241c7c7` <br/> `fd8f2c6f 9d51cae9 3a4fee54 04ebd364` <br/> `8372725a ffe56aa6 045feab0 47dbebb8` <br/> `5f90c553 4f6e9e55 5ab8b9fb fd8a4ce9` |
 | [0046_360.zkey](./participations/0046_360.zkey) | [@360bilalkhan](https://twitter.com/360bilalkhan) | `8e74b679 05c53b94 54c7117f a755484c` <br/> `abd62997 0b20415e 67c6ba0a efbcd1c2` <br/> `4148b562 2fda0e65 15883f23 5ae29d7d` <br/> `1a4003ce af5e14c8 d08160f2 c87d9371` |
-
+| [0047_chillyvee.zkey](./participations/0047_chillyvee.zkey) | `` | `42b5a370 9758564d bd6b6e86 dc3edacd` <br/> `2d3e2d3a 7370e235 4650cb3b 3104aca5` <br/> `9c63dd21 71814128 b27c2e46 3d792aa3` <br/> `c8448e67 c3a77c22 59e93ba1 259ba87d` |
